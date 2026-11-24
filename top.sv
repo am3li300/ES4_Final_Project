@@ -9,7 +9,7 @@ module top (
     ) osc (
         .CLKHFPU(1'b1), // Power up
         .CLKHFEN(1'b1), // Enable
-        .CLKHF(clk), // Clock output
+        .CLKHF(clk) // Clock output
     );
 
 endmodule
